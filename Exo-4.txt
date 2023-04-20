@@ -1,0 +1,4 @@
+SELECT car.* FROM car
+JOIN brand ON car.marque_id = brand.id
+JOIN user ON car.utilisateur_id = user.id
+WHERE brand.nom = 'BMW';
