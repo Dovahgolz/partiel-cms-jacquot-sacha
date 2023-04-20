@@ -6,20 +6,17 @@
 </head>
 <body>
 
-	<button onclick="ajouterImage()">Ajouter une image</button>
-	<div id="monDiv"></div>
+	<button id="addImage">Ajouter une image</button>
+<div id="imageContainer"></div>
 
-	<script>
-		function ajouterImage() {
-			var image = document.createElement("img");
+const addButton = document.getElementById("addImage");
+const imageContainer = document.getElementById("imageContainer");
 
-			image.src = "chemin/vers/votre/image.jpg";
-
-			var monDiv = document.getElementById("monDiv");
-
-			monDiv.appendChild(image);
-		}
-	</script>
+addButton.addEventListener("click", () => {
+  const newImage = document.createElement("img");
+  newImage.src = "chemin/vers/image.jpg";
+  imageContainer.appendChild(newImage);
+});
 
 </body>
 </html>
