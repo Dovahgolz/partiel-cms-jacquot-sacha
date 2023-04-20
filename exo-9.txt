@@ -1,1 +1,39 @@
 
+class Moto {
+  constructor(marque, modele, type, taille, reservoir, vitesseMoyenne) {
+    this.marque = marque;
+    this.modele = modele;
+    this.type = type;
+    this.taille = taille;
+    this.reservoir = reservoir;
+    this.vitesseMoyenne = vitesseMoyenne;
+  }
+}
+
+const motos = [
+  new Moto("Honda", "CBR", "Sportive", "Moyenne", 17, 220),
+  new Moto("Yamaha", "MT-07", "Roadster", "Moyenne", 14, 180),
+  new Moto("Kawasaki", "Ninja", "Sportive", "Moyenne", 17, 250),
+  new Moto("Suzuki", "GSX-S750", "Roadster", "Moyenne", 16, 200),
+  new Moto("Ducati", "Panigale", "Sportive", "Moyenne", 17, 280),
+  new Moto("BMW", "S1000RR", "Sportive", "Moyenne", 16, 280),
+  new Moto("Triumph", "Street Triple", "Roadster", "Moyenne", 15, 190),
+  new Moto("Aprilia", "RSV4", "Sportive", "Moyenne", 18, 260),
+  new Moto("Harley-Davidson", "Street Bob", "Custom", "Grande", 18, 130),
+  new Moto("Indian", "Scout", "Custom", "Moyenne", 12, 150)
+];
+
+for (let i = 0; i < motos.length; i++) {
+  console.log(motos[i].marque + " " + motos[i].modele);
+}
+
+function afficherMeilleureMoto(tableauMotos) {
+  let meilleureMoto = tableauMotos[0];
+  for (let i = 1; i < tableauMotos.length; i++) {
+    if (tableauMotos[i].vitesseMoyenne > meilleureMoto.vitesseMoyenne) {
+      meilleureMoto = tableauMotos[i];
+    }
+  }
+  console.log("La moto avec la meilleure vitesse moyenne est :");
+  console.log(meilleureMoto.marque + " " + meilleureMoto.modele);
+}
