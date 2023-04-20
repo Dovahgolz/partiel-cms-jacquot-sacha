@@ -1,1 +1,2 @@
-
+CMS, acronyme de Content Management System
+Un CMS est un système qui permet de gérer le contenu d'un site web, en offrant la possibilité de créer, modifier et publier du contenu, sans avoir besoin de connaissances en programmation web. En somme, un CMS facilite la gestion de contenu pour les personnes qui ne sont pas expertes en développement web.
