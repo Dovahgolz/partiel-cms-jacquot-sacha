@@ -1,1 +1,11 @@
-citer les plugins qui permettent de modifier un theme sous worpdress
+Elementor 
+
+Beaver Builder
+
+Divi Builder 
+
+WPBakery 
+
+Visual Composer 
+
+SiteOrigin
