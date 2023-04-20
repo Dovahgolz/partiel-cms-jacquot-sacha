@@ -1,2 +1,8 @@
-Les bases de données SQL stockent les données dans des tables avec des relations entre elles, en suivant un modèle de données relationnel. 
-En revanche, les bases de données NoSQL utilisent différents modèles de données tels que le modèle document, le modèle de colonnes et le modèle clé-valeur pour stocker les données.
+-Les bases de données SQL stockent les données dans des tables avec des relations entre elles, en suivant un modèle de données relationnel. 
+les bases de données NoSQL utilisent différents modèles de données tels que le modèle document, le modèle de colonnes et le modèle clé-valeur pour stocker les données.
+
+-Les bases de données SQL ont une structure de données rigide qui exige que la structure des tables et les types de données soient définis à l'avance. les bases de données NoSQL ont une structure de données flexible qui permet d'ajouter ou de modifier des données sans qu'il soit nécessaire de modifier la structure de la base de données.
+
+-Les bases de données SQL utilisent le langage SQL pour interroger et manipuler les données. Les bases de données NoSQL ont leur propre langage de requête spécifique au modèle de données qu'elles utilisent.
+
+-Les bases de données SQL ont souvent des limitations en termes de capacité de stockage et de traitement. En revanche, les bases de données NoSQL sont souvent plus facilement adaptables à des besoins évolutifs et peuvent gérer des volumes massifs de données.
