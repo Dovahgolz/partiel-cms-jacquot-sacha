@@ -1,0 +1,2 @@
+Les bases de données SQL stockent les données dans des tables avec des relations entre elles, en suivant un modèle de données relationnel. 
+En revanche, les bases de données NoSQL utilisent différents modèles de données tels que le modèle document, le modèle de colonnes et le modèle clé-valeur pour stocker les données.
